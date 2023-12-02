@@ -1,0 +1,115 @@
+.header{
+    background-color: gray;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 0 0 20px;
+}
+
+.logoimg{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logoimg img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+}
+
+.user h6{
+    align-items: end;
+    margin: 0 0 10px 16px;
+    font-size: 14px;
+}
+
+.user img{
+    height: 40px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    max-width: 500px;
+    right: 20%;
+    top: 10px;
+}
+
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px 20px 50px;       
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0;
+    display: block;
+    font-size: 18px;
+}
+
+/*body*/
+/*body{
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+
+.medio {
+    display: flex;
+    position: fixed;
+    top: 30%;
+    
+}
+
+/*footer*/
+.footer{
+    background-color: gray;
+    padding: 10px 0 0 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.creado p{
+    padding: 0 0 0px 20px;
+}
+
+.redes ul{
+    list-style: none;
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    padding: 0;
+    margin: auto;
+}
+
+.redes ul li{
+    display: inline-block;
+}
+
+.redes ul li a img{
+    width: 100px;
+    padding: 0 0 0 0;
+}
